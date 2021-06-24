@@ -1,5 +1,7 @@
 # Wabanex
 
+Rocketseat NLW 6 Elixit/GraphQL project.
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
