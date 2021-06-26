@@ -14,7 +14,7 @@ defmodule WabanexWeb.Router do
   scope "/api" do
     pipe_through :api
 
-    forward "/graphql", Absinthe.Plug, schema: Wabanex.Schema
+    forward "/graphql", Absinthe.Plug, schema: WabanexWeb.Schema
     forward "/graphiql", Absinthe.Plug.GraphiQL, schema: WabanexWeb.Schema
   end
 
